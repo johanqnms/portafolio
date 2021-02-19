@@ -5,27 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio Johan Quijano AlterU 2021</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src=""></script>
-</head>
+  </head>
 
   <body>
-    <!-- <header>
-      <nav>
-        <ol>
-          <li>
-            <a href="">Inicio</a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-          </li>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Inicio
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trayectoria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conocimientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div
+        id="carouselExampleIndicators" class="carousel slide"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         </ol>
-      </nav>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="background-image: url('assets/img/slider1.jpg')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Desarrollo Frontend</h3>
+              <p class="lead">Angular, React JS, Javacript, HTML 5, CSS</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Second Slide</h3>
+              <p class="lead">This is a description for the second slide.</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1 class="font-weight-light">Half Page Image Slider</h1>
+        <p class="lead">
+          The background images for the slider are set directly in the HTML
+          using inline CSS. The images in this snippet are from
+          <a href="https://unsplash.com">Unsplash</a>!
+        </p>
+      </div>
+    </section>
+
     <main>
       <section>
         <h1>Profesional en Desarrollo Frontend</h1>
@@ -61,76 +157,5 @@
       <section>Contacto</section>
     </main>
     <footer>Footer</footer>
- -->
-
- <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Johan Quijano</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide auto" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('assets/img/slider1.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">First Slide</h3>
-            <p class="lead">This is a description for the first slide.</p>
-          </div>
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="display-4">Second Slide</h3>
-            <p class="lead">This is a description for the second slide.</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-    </div>
-  </header>
-  
-  <!-- Page Content -->
-  <section class="py-5">
-    <div class="container">
-      <h1 class="font-weight-light">Half Page Image Slider</h1>
-      <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
-    </div>
-  </section>
-
   </body>
 </html>
